@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+  
+  header {
+    background-color: #94b24e9c;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+  }
+  
+  .plan {
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    background-color: rgba(58, 135, 43, 0.9);
+    padding: 2rem;
+    margin: 1rem;
+    width: 200px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .plan h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .plan p {
+    font-size: 0.9rem;
+  }
+  
+  .plan .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  .subscribe-button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    width: 100%;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #d10812;
+  }
+  

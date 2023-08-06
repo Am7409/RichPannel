@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Payment Gateway</title>
+<link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+  <div class="background">
+    <div class="container">
+      <h1>Secure Payment Gateway</h1>
+      <form id="payment-form">
+        <label for="cardNumber">Card Number</label>
+        <input type="text" id="cardNumber" placeholder="Enter your card number" required>
+        <label for="expiration">Expiration Date</label>
+        <input type="text" id="expiration" placeholder="MM/YY" required>
+        <label for="cvv">CVV</label>
+        <input type="number" id="cvv" placeholder="123" required>
+        <label for="name">Cardholder Name</label>
+        <input type="text" id="name" placeholder="John Doe" required>
+        <button type="submit">Pay Now</button>
+      </form>
+    </div>
+  </div>
+  <script src="Payment.js"></script>
+</body>
+</html>
