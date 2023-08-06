@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const password = document.getElementById("password").value;
 
         // Simulate login logic (replace with actual login logic)
-        if (username === "ayush" && password === "password") {
+        if (username === "user" && password === "password") {
             loginMessage.textContent = "";
             window.location.href = "dashboard.html";
         } else {
